@@ -549,6 +549,7 @@ a.mt-button {
 .img-about{
     display: block;
     height: auto;
+    width: 60%;
     margin-top: 24px;
     margin-left: 100px;
     max-width: 100%;
