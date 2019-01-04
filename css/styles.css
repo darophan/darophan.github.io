@@ -543,6 +543,18 @@ a.mt-button {
     font-size: 20px;
     line-height: 30px;
 }
+/*Opt in Section*/
+
+#opt-in {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #282828;
+    color: #fff;
+}
+#opt-in p {
+    margin: 7px 0 0 0;
+}
+
 
 /*About
 ----------------------------------------*/
@@ -581,6 +593,7 @@ a.mt-button {
     display: block;
     padding: 20px;
 }
+
 /* Timeline
 -------------------------------------------------- */
 .timeline {
@@ -1425,7 +1438,7 @@ a.mt-button {
 }
 .gmap{
     height: 500px;
-    margin-top: 80px;
+    /*margin-top: 80px;*/
 }
 
 .contact {
@@ -1439,7 +1452,26 @@ a.mt-button {
     margin-top: 50px;
 }
 
-
+/* Sign up section*/
+#signup article {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/auditorium.jpg);
+    /*background-color: rgba(0, 0, 0, .9);*/
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+#signup h2 {
+    color: #fff;
+}
+.signup {
+    color:#fff;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 /*Footer
 ----------------------------------*/
 footer {
